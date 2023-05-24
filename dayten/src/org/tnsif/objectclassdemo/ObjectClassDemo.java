@@ -27,6 +27,7 @@ public class ObjectClassDemo {
 		
 		Object obj = new Object();
 		System.out.println(obj.getClass());
+		System.out.println(obj.hashCode());
 
 	}
 
