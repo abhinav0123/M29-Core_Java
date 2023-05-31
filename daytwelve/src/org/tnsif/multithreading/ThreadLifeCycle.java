@@ -1,7 +1,7 @@
 //program to demonstrate thread life cycle
 package org.tnsif.multithreading;
 
-public class ThreadLifeCycleExample extends Thread{
+public class ThreadLifeCycle extends Thread{
 	public void run() {
 		System.out.println("Is thread alive?:"+this.isAlive());
 		int x= 0;
@@ -19,7 +19,7 @@ public class ThreadLifeCycleExample extends Thread{
 	}
 
 	public static void main(String[] args) {
-		ThreadLifeCycleExample t = new ThreadLifeCycleExample();
+		ThreadLifeCycle t = new ThreadLifeCycle();
 		
 		System.out.println("Before starting a thread: Is thread alive? "+t.isAlive());
 		
